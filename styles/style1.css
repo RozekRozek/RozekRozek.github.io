@@ -5,7 +5,7 @@
   }
 
 @keyframes FadeIn {
-    from{opacity: 0; margin-top: 500px;}
+    from{opacity: 0; margin-top: 500%;}
     to{opacity:1; margin-top: 5%;}
     
 }
@@ -56,6 +56,13 @@ header{
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
+#ButtonHolder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(156, 158, 154) ;
+
+}
 
 .Frame{
     max-width:40%;
@@ -64,4 +71,10 @@ header{
 img{
     max-width:100%;
     max-height:90%;
+}
+
+.PageRedirectionButton{
+
+
+
 }
