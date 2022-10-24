@@ -1,14 +1,45 @@
+
+@keyframes TitleFadeIn {
+    from {color: black;}
+    to {color: rgb(156, 158, 154);}
+  }
+
+@keyframes FadeIn {
+    from{opacity: 0; margin-top: 500px;}
+    to{opacity:1; margin-top: 5%;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
     background-color: black;
     margin: 0px;
-    
+    overflow: hidden;
 }
 
 header{
     margin-top: 5%;
     text-align: center;
     font-size: 100px;
-    color:rgb(156, 158, 154);
+    color:black;
+    animation-name: TitleFadeIn;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
     
 }
 
@@ -21,6 +52,9 @@ header{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
+    animation: FadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 .Frame{
