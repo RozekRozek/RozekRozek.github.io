@@ -1,4 +1,4 @@
-
+// Funkcja do dodawania diva i obrazka po wywołaniu
 function Add_Sculpture() {
     var div = document.createElement('div');
     div.setAttribute("id","SculptureStand");

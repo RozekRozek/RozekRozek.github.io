@@ -1,3 +1,4 @@
+/* Button do wyświetlenia diwa z obrazkiem rzeźby */
 #SculptureButton{
     margin-top: 5%;
     margin-left: 25%;
@@ -10,7 +11,7 @@
     font-weight: 200;
 }
 
-
+/* div w którym jest obrazek z rzeźbą */
 #SculptureStand{
     margin-top: 5%;
     background-color:  black;
@@ -23,10 +24,11 @@
     margin-top: 2%;
     align-content: center;
 }
-
+/* pojemnik na przycisk do wyświetlania */
 #SculputerButtonHolder{
     align-content: center;
 }
+/* Niewidoczny div do trzymania wyświetlanych rzeczy */
 #Holder{
     min-height: 500px;
 }

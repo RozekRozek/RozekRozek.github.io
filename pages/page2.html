@@ -9,16 +9,22 @@
     <title>Color Change Form</title>
 </head>
 <body>
+    <!-- nagłówek -->
     <header>Color Change Form</header>
+    <!-- div do trzymania mechanizmu zmiany koloru -->
     <div id = "ColorMechanism"> 
+        <!-- input z na kolor -->
         <input type="text" id="ColorInput">
+        <!-- guzik do zmiany koloru -->
         <input type="button" id="ColorButton" value="Change Color" onclick="ChangeColor()">
+        <!-- Div który zmienia kolor po wpisaniu koloru i wcisnieciu guzika -->
         <div id="ColorPlate"></div>
     </div>
    
 
-
+<!-- Div na guziki do nawigacji -->
     <div id="ButtonHolder">
+        <!-- guziki do nawigacji -->
         <button class = "PageRedirectionButton"   onclick="location.href = '../index.html'";>Art Gallery</button>
         <button class = "PageRedirectionButton"   onclick="location.href = 'page1.html'";>Sculpture Gallery</button>
         

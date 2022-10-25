@@ -1,9 +1,9 @@
-
+/* zmiana koloru napisu w nagłówku */
 @keyframes TitleFadeIn {
     from {color: black;}
     to {color: rgb(156, 158, 154);}
   }
-
+/* wjazd diva z obrazkami */
 @keyframes FadeInMove {
     from{opacity: 0; margin-top: 500%;}
     to{opacity:1; margin-top: 5%;}
@@ -28,7 +28,7 @@ header{
     animation-fill-mode: forwards;
     
 }
-
+/* Div z obrazami */
 #ArtDisplay{
     display: flex;
     flex-direction: row;
@@ -45,6 +45,7 @@ header{
     max-width: 80%;
     align-self: center;
 }
+/* div na przyciski */
 #ButtonHolder{
     display: flex;
     flex-direction: row;
@@ -58,13 +59,14 @@ header{
     
 
 }
-
+/* div do trzymania pojedynczego obrazu */
 .Frame{
     max-width:40%;
     min-width: 40%;
     margin-top: 2%;
 
 }   
+/* obrazki */
 img{
     max-width:100%;
     max-height:90%;
@@ -72,12 +74,12 @@ img{
     transition: 1s;
     
 }
-
+/* efekty po najechaniu myszką na obrazek */
 img:hover{
     transform: scale(1.5);
     filter: saturate(1.5);
 }
-
+/* Przyciski do nawigacji */
 .PageRedirectionButton{
     background-color: rgb(156, 158, 154);
     width: 40%;
@@ -93,7 +95,7 @@ img:hover{
 
 
 }
-
+/* efekty po najechaniu myszka na przycisk do nawigacji */
 .PageRedirectionButton:hover{
     transform: scale(1.2);
     
